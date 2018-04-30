@@ -1,0 +1,11 @@
+public boolean addMark(int value) {
+		if (count < marks.length) {
+			marks[count] = value;
+			count++;
+			return true;
+
+		} else {
+			return false;
+		}
+
+	}
